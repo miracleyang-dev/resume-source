@@ -33,7 +33,7 @@ h1 {
 h2 {
     border-bottom: 1px solid #2f4f4f;
     padding-bottom: 2px;
-    margin: 16px 0 6px;
+    margin: 29px 0 6px;
     font-size: 16px;
     text-transform: uppercase;
     letter-spacing: 1.2px;
@@ -103,7 +103,7 @@ ul, li, dl { page-break-inside: avoid; break-inside: avoid; }
         line-height: 1.38;
     }
     h1 { font-size: 22pt; }
-    h2 { font-size: 12pt; margin: 10px 0 4px; }
+    h2 { font-size: 12pt; margin: 18px 0 4px; }
     .contact-bar { font-size: 10pt; margin-bottom: 10px; }
     .entry-title, .meta-row { font-size: 11pt; }
     ul { margin: 2px 0 4px; }
