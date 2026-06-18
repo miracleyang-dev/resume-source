@@ -1,74 +1,95 @@
 <!DOCTYPE html>
-<html>
+<html lang="en">
 <head>
     <meta charset="UTF-8">
-    <title>Yonghao Yang - One-Page Academic Resume</title>
+    <title>Yonghao Yang - Resume</title>
     <link rel="stylesheet" href="style.css">
 </head>
 <body>
     <h1>Yonghao Yang</h1>
 
     <div class="contact-bar">
-        <span>Email: 13235595638@163.com</span> |
-        <span>WeChat: yyh142857369</span> |
-        <span>GitHub: https://github.com/miracleyang-dev</span>
+        <span>2023302061214@whu.edu.cn</span>
+        <span class="sep">|</span>
+        <span>WeChat: yyh142857369</span>
+        <span class="sep">|</span>
+        <span>github.com/miracleyang-dev</span>
     </div>
 
     <h2>Education</h2>
-
     <div class="edu-header">
-        <strong>Wuhan University, School of Mathematics and Statistics</strong>
-        <span class="right">Bachelor of Science</span>
+        <span><strong>Wuhan University, School of Mathematics and Statistics</strong></span>
+        <span class="right"><em>Expected Jul 2027</em></span>
     </div>
-    <div class="tight">Major: Data Science and Big Data Technology</div>
+    <div class="edu-header subline">
+        <span><strong>Major:</strong> Data Science and Big Data Technology</span>
+    </div>
     <div class="meta-row">
-        <span class="meta-item">Major GPA: 93.4/100 (GPA: 3.88/4)</span>
-        <span class="meta-item">Major Rank: 1/63</span>
+        <span class="meta-item"><strong>Major GPA:</strong> 93.4/100 (3.91/4.0)</span>
+        <span class="meta-item right-text"><strong>Major Rank:</strong> 1/63</span>
     </div>
-    <div class="tight"><strong>Selected Coursework:</strong> Mathematical Analysis, Advanced Algebra, Probability, Statistics, Real Analysis, Optimization, Numerical Analysis, Machine Learning, Deep Learning.</div>
+    <div class="tight coursework"><strong>Selected Coursework:</strong> Mathematical Analysis, Advanced Algebra, Probability Theory, Statistics, Real Analysis, Optimization, Numerical Analysis, Data Structures, Machine Learning, Deep Learning.</div>
 
     <h2>Research Experience</h2>
 
-    <div class="entry-title">Study on Spatial Multi-omics and Neural Networks | 2025.10-2026.01</div>
+    <div class="entry-title">
+        <span>Neural Models for NLP</span>
+        <span class="right">Feb 2026 &ndash; Apr 2026</span>
+    </div>
     <ul>
-        <li>Learnt core deep learning architectures (ResNet, GNN, VAE, GAN).</li>
-        <li>Reviewed methods including self-supervised learning, contrastive learning, and distillation for spatial multi-omics tasks.</li>
-        <li>Reproduced selected papers: preprocessing, implementation, and result comparison.</li>
+        <li>Built end-to-end sentiment-analysis pipelines with N-gram, RNN, LSTM baselines.</li>
+        <li>Compared Encoder-Decoder, Transformer, BERT/GPT with classical baselines via ablation study.</li>
+        <li>Proposed CMLG fusion with attention and LLM voting to lift macro F1 substantially.</li>
     </ul>
-    
-    <div class="entry-title">Neural Network-driven NLP Research | 2026.02-2026.03</div>
+
+    <div class="entry-title">
+        <span>Spatial Multi-omics with Deep Learning</span>
+        <span class="right">Oct 2025 &ndash; Jan 2026</span>
+    </div>
     <ul>
-        <li>Completed intensive NLP research training (Encoder-Decoder, Transformer, BERT/GPT).</li>
-        <li>Built and evaluated end-to-end sentiment analysis pipelines on social media text, using N-gram baselines and recurrent models (RNN/LSTM).</li>
-        <li>Delivered a structured final report with method comparison and practical findings for real-world text analysis.</li>
-      </ul>
+        <li>Benchmarked ResNet, GNN, VAE, GAN on single-cell / bulk RNA-seq in a unified PyTorch pipeline.</li>
+        <li>Explored self-supervised, contrastive, and distillation methods for spatial multi-omics alignment.</li>
+        <li>Reproduced published methods end-to-end and presented findings at group meetings.</li>
+    </ul>
+
+    <h2>Manuscripts Under Review</h2>
+    <ul>
+        <li><strong>Yonghao Yang.</strong> &ldquo;Gender Antagonism Detection in Chinese Social Media: Multi-Feature Fusion with LLM-Assisted Label Cleaning.&rdquo; Submitted to an SCI-indexed journal.</li>
+    </ul>
 
     <h2>Project Experience</h2>
-
-    <div class="entry-title">Bomb Cat, Game Development Project | 2025.05-2025.06</div>
+    <div class="entry-title">
+        <span><strong>basic-algorithms</strong> &mdash; C++ Algorithm Template Library</span>
+        <span class="right">Jul 2025 &ndash; Sep 2025</span>
+    </div>
     <ul>
-        <li>Led architecture and implemented core Python/Pygame modules: battle logic, card draw, and encyclopedia interactions.</li>
-        <li>Refactored code into modular components, improving maintainability and team efficiency.</li>
-        <li>Designed and polished encyclopedia UI behaviors, including scrolling and hover interactions.</li>
-        <li>Built key UI interactions (scroll and hover); coordinated testing in a 5-member team with over 30% personal code contribution.</li>
+        <li>Built 30+ C++ templates for DP, graph and common data structures.</li>
+        <li>Covered string algorithms and core number theory algorithms.</li>
     </ul>
 
-    <h2>Awards and Competitions</h2>
+    <div class="entry-title">
+        <span><strong>bomb-cat-game</strong> &mdash; Strategy Card Game</span>
+        <span class="right">May 2025 &ndash; Jun 2025</span>
+    </div>
     <ul>
-        <li><strong>National Scholarship</strong> (National level, 2025)</li>
-        <li><strong>First-Class University Scholarship</strong> (University level, 2025)</li>
-        <li><strong>Merit Student</strong> and <strong>Outstanding Dormitory Leader</strong> (University level, 2025)</li>
-        <li><strong>Lanqiao Cup Provincial Competition</strong> (Software and Information Technology): First Prize, 2025</li>
-        <li><strong>Lanqiao Cup National Finals</strong> (Software and Information Technology): Third Prize, 2025</li>
+        <li>Led a 5-person team, designing architecture and core game modules.</li>
+        <li>Refactored codebase, coordinated testing and delivered core project code.</li>
     </ul>
+
+    <h2>Awards &amp; Competitions</h2>
+    <dl class="awards">
+        <dt>National Scholarship</dt><dd>Ministry of Education, 2025</dd>
+        <dt>First-Class University Scholarship</dt><dd>Wuhan University, 2025</dd>
+        <dt>Merit Student</dt><dd>Wuhan University, 2025</dd>
+        <dt>Outstanding Dormitory Leader</dt><dd>Wuhan University, 2025</dd>
+        <dt>Lanqiao Cup (Software &amp; IT)</dt><dd>Provincial First Prize &rarr; National Third Prize, 2025</dd>
+    </dl>
 
     <h2>Technical Skills</h2>
-
-    <ul>
-        <li><strong>Programming:</strong> Python (proficient), C/C++ (familiar).</li>
-        <li><strong>Research & Writing:</strong> Markdown, LaTeX.</li>
-        <li><strong>Algorithms:</strong> Maintains personal repository BasicAlgorithms summarizing implementations of common algorithms.</li>
-        <li><strong>English:</strong> CET-4, CET-6.</li>
-    </ul>
-</body>
+    <dl class="skills">
+        <dt>Programming</dt><dd>Python, C / C++</dd>
+        <dt>ML / DL</dt><dd>PyTorch, NumPy, Pandas, scikit-learn</dd>
+        <dt>Tools</dt><dd>Git, LaTeX, Markdown</dd>
+    </dl>
+<script data-cfasync="false" src="/cdn-cgi/scripts/5c5dd728/cloudflare-static/email-decode.min.js"></script></body>
 </html>
