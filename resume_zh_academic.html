@@ -1,0 +1,290 @@
+<!DOCTYPE html>
+<html lang="zh-CN">
+<head>
+<meta charset="UTF-8">
+<title>杨永豪_武汉大学_简历</title>
+<style>
+  @page { size: A4; margin: 16mm 18mm; }
+  * { box-sizing: border-box; }
+  body {
+    font-family: "PingFang SC", "Microsoft YaHei", "Hiragino Sans GB", "SimSun", sans-serif;
+    font-size: 10.5pt;
+    line-height: 1.6;
+    color: #222;
+    max-width: 820px;
+    margin: 20px auto;
+    padding: 0 20px;
+    background: #fff;
+  }
+
+  /* 顶部：姓名 + 联系方式 + 照片 */
+  .top {
+    display: grid;
+    grid-template-columns: 1.2fr 2fr auto;
+    gap: 22px;
+    align-items: center;
+    padding-bottom: 12px;
+    margin-bottom: 6px;
+    border-bottom: 3px double #b48a5c;
+  }
+  .name-block .cn {
+    font-size: 24pt;
+    font-weight: 700;
+    letter-spacing: 4px;
+    color: #3a2a12;
+  }
+  .name-block .en {
+    font-family: "Georgia", serif;
+    font-size: 11pt;
+    letter-spacing: 1px;
+    color: #8a6a3e;
+    margin-top: 2px;
+  }
+  .contact { font-size: 10pt; color: #333; }
+  .contact .line { margin: 2px 0; word-break: break-all; }
+  .contact .label {
+    display: inline-block;
+    width: 46px;
+    color: #8a6a3e;
+    font-weight: 600;
+  }
+  .photo {
+    width: 92px;
+    height: 120px;
+    object-fit: cover;
+    border: 1px solid #d4b78a;
+    box-shadow: 0 1px 4px rgba(120, 80, 30, 0.15);
+  }
+
+  section { margin-top: 15px; }
+  h2 {
+    font-size: 12pt;
+    color: #3a2a12;
+    margin: 0 0 6px 0;
+    padding-bottom: 3px;
+    border-bottom: 1px solid #8a6a3e;
+    display: flex;
+    align-items: center;
+    letter-spacing: 3px;
+  }
+  h2::before {
+    content: "◆";
+    color: #b48a5c;
+    margin-right: 6px;
+    font-size: 10pt;
+  }
+  h2::after {
+    content: none;
+  }
+
+  @media print {
+    h2 { -webkit-print-color-adjust: exact; print-color-adjust: exact; }
+  }
+
+  .item { margin: 6px 0 4px 0; }
+  .item-head {
+    display: flex;
+    justify-content: space-between;
+    font-weight: 700;
+    color: #2a2a2a;
+  }
+  .item-head .date {
+    font-weight: 400;
+    color: #7a6a4e;
+    font-size: 10pt;
+  }
+  ul { margin: 3px 0 4px 22px; padding: 0; }
+  li { margin: 1px 0; }
+
+  .edu-line { margin: 2px 0; }
+  .edu-line b { color: #3a2a12; }
+  .courses { margin-top: 2px; }
+  .course-chip {
+    display: inline-block;
+    padding: 1px 8px;
+    margin: 3px 4px 0 0;
+    background: #fbf5ec;
+    border: 1px solid #e5d3b2;
+    border-radius: 12px;
+    font-size: 9.8pt;
+    color: #4a3a1f;
+    white-space: nowrap;
+  }
+  .course-chip .sc {
+    color: #b48a5c;
+    font-weight: 700;
+    margin-left: 4px;
+  }
+
+  .awards { padding-left: 4px; }
+  .award {
+    display: grid;
+    grid-template-columns: 60px 1fr;
+    gap: 14px;
+    padding: 0;
+  }
+  .award .yr {
+    color: #b48a5c;
+    font-weight: 700;
+    font-family: "Georgia", serif;
+  }
+  .award .txt { color: #333; }
+  .award .txt b { color: #3a2a12; }
+
+  .skill-grid {
+    display: grid;
+    grid-template-columns: 90px 1fr;
+    gap: 4px 12px;
+  }
+  .skill-grid .lb { color: #8a6a3e; font-weight: 600; }
+  .skill-grid .vl { color: #333; }
+
+  .bottom-grid {
+    display: grid;
+    grid-template-columns: 1fr 1fr;
+    gap: 24px;
+    align-items: start;
+  }
+  .bottom-grid section { min-width: 0; }
+  .bottom-grid .award {
+    grid-template-columns: 38px 1fr;
+    gap: 4px 8px;
+    font-size: 9.6pt;
+  }
+  .bottom-grid .awards {
+    display: grid;
+    gap: 4px;
+  }
+  .bottom-grid .skill-grid {
+    grid-template-columns: 62px 1fr;
+    gap: 4px 8px;
+    font-size: 9.6pt;
+  }
+
+  a { color: #8a5a1c; text-decoration: none; border-bottom: 1px dotted #b48a5c; }
+</style>
+</head>
+<body>
+
+<div class="top">
+  <div class="name-block">
+    <div class="cn">杨 永 豪</div>
+    <div class="en">Yang Yonghao</div>
+  </div>
+  <div class="contact">
+    <div class="line"><span class="label">院校</span>武汉大学 · 数学与统计学院</div>
+    <div class="line"><span class="label">邮箱</span><span>2023302061214</span>&#64;<span>whu.edu.cn</span></div>
+    <div class="line"><span class="label">微信</span>yyh142857369</div>
+    <div class="line"><span class="label">主页</span>github.com/miracleyang-dev</div>
+  </div>
+  <img class="photo" src="photo.jpeg" alt="照片">
+</div>
+
+<section>
+  <h2>教 育 背 景</h2>
+  <div class="item">
+    <div class="item-head">
+      <span>武汉大学　数据科学与大数据技术（本科）</span>
+      <span class="date">2023.09 – 2027.07（预计）</span>
+    </div>
+    <div class="edu-line"><b>学业情况：</b>专业绩点 3.92 / 4.0（93.4 / 100）　·　专业排名 1 / 63</div>
+    <div class="courses">
+      <span class="course-chip">数学分析<span class="sc">91</span></span>
+      <span class="course-chip">高等代数<span class="sc">96</span></span>
+      <span class="course-chip">数值线性代数<span class="sc">94</span></span>
+      <span class="course-chip">实变函数<span class="sc">94</span></span>
+      <span class="course-chip">常微分方程<span class="sc">93</span></span>
+      <span class="course-chip">概率论<span class="sc">99</span></span>
+      <span class="course-chip">数理统计<span class="sc">97</span></span>
+      <span class="course-chip">数值分析<span class="sc">100</span></span>
+      <span class="course-chip">数据结构<span class="sc">98</span></span>
+      <span class="course-chip">Python<span class="sc">96</span></span>
+      <span class="course-chip">机器学习<span class="sc">90</span></span>
+      <span class="course-chip">神经网络<span class="sc">98</span></span>
+    </div>
+  </div>
+</section>
+
+<section>
+  <h2>科 研 经 历</h2>
+
+  <div class="item">
+    <div class="item-head">
+      <span>生成模型专题：Score / Flow / Drifting</span>
+      <span class="date">2026.07 – 至今</span>
+    </div>
+    <ul>
+      <li>沿 NCSN、DDPM、Score-SDE、Flow Matching、Drifting 脉络研读核心论文。</li>
+      <li>推导相关 SDE / ODE 公式，梳理各类生成过程的数学动机。</li>
+    </ul>
+  </div>
+
+  <div class="item">
+    <div class="item-head">
+      <span>面向自然语言处理的神经网络模型比较</span>
+      <span class="date">2026.02 – 2026.04</span>
+    </div>
+    <ul>
+      <li>基于 N-gram、RNN、LSTM、Transformer 等搭建统一情感分类流程，开展模型对比与消融。</li>
+      <li>设计 CMLG 多特征融合方案，宏 F1 较基线明显提升。
+        [<a href="https://doi.org/10.5281/zenodo.21104764">DOI</a>]
+        [<a href="https://github.com/miracleyang-dev/cmlg-sexism-detection">源码</a>]
+      </li>
+    </ul>
+  </div>
+
+  <div class="item">
+    <div class="item-head">
+      <span>深度学习在空间多组学中的基准评测</span>
+      <span class="date">2025.10 – 2026.01</span>
+    </div>
+    <ul>
+      <li>在统一 PyTorch 框架下，对比 GNN、VAE、GAN 在单细胞与 bulk 转录组数据上的表现。</li>
+      <li>探索自监督、对比学习与知识蒸馏在空间多组学跨模态对齐中的应用。</li>
+    </ul>
+  </div>
+</section>
+
+<section>
+  <h2>开 源 项 目</h2>
+  <ul>
+    <li><b>machine-learning-handbook</b>　整理深度学习基础与数学预备知识的个人知识库。
+      [<a href="https://github.com/miracleyang-dev/machine-learning-handbook">仓库</a>]</li>
+    <li><b>basic-algorithms</b>　涵盖动态规划、图论、字符串、数论方向的 C++ 算法模板集合。
+      [<a href="https://github.com/miracleyang-dev/basic-algorithms">仓库</a>]</li>
+    <li><b>bomb-cat-game</b>　基于 Python + Pygame 的原创卡牌对战游戏。
+      [<a href="https://github.com/miracleyang-dev/bomb-cat-game">仓库</a>]</li>
+  </ul>
+</section>
+
+<div class="bottom-grid">
+  <section>
+    <h2>荣 誉 与 奖 项</h2>
+    <div class="awards">
+      <div class="award"><span class="yr">2026</span><span class="txt"><b>电工杯（数学建模）</b>　国一等奖</span></div>
+      <div class="award"><span class="yr">2025</span><span class="txt"><b>国家奖学金</b>　教育部</span></div>
+      <div class="award"><span class="yr">2025</span><span class="txt"><b>甲等学业奖学金</b>　武汉大学</span></div>
+      <div class="award"><span class="yr">2025</span><span class="txt"><b>三好学生</b>　武汉大学</span></div>
+      <div class="award"><span class="yr">2025</span><span class="txt"><b>蓝桥杯（算法设计）</b>　省一等奖、国三等奖</span></div>
+      <div class="award"><span class="yr">2025</span><span class="txt"><b>校级优秀寝室长</b>　武汉大学</span></div>
+    </div>
+  </section>
+
+  <section>
+    <h2>技 能 与 语 言</h2>
+    <div class="skill-grid">
+      <div class="lb">编程语言</div><div class="vl">Python、C / C++、R</div>
+      <div class="lb">机器学习</div><div class="vl">PyTorch、NumPy、Pandas、scikit-learn</div>
+      <div class="lb">工具链</div><div class="vl">Git、LaTeX、Markdown、MkDocs</div>
+      <div class="lb">英语</div><div class="vl">大学英语四、六级</div>
+    </div>
+  </section>
+</div>
+
+<section>
+  <h2>研 究 兴 趣</h2>
+  <div>借助现代数学工具，训练并分析深度生成模型与推理模型。</div>
+</section>
+
+</body>
+</html>
